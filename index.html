@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hand Cricket Game</title>
+  <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+  <h1>Hand Cricket Game 🏏</h1>
+  <p id="story"></p>
+
+  <div class="game-container">
+    <div class="player">
+      <h2>Player 1</h2>
+      <div class="choices">
+        <button onclick="chooseNumber(1)">1</button>
+        <button onclick="chooseNumber(2)">2</button>
+        <button onclick="chooseNumber(3)">3</button>
+        <button onclick="chooseNumber(4)">4</button>
+        <button onclick="chooseNumber(5)">5</button>
+        <button onclick="chooseNumber(6)">6</button>
+      </div>
+    </div>
+
+    <div class="opponent">
+      <h2>Computer</h2>
+      <p id="opponentChoice">?</p>
+    </div>
+  </div>
+
+  <div id="countdown">Choose your number to start!</div>
+  <h2 id="result"></h2>
+  <h2 id="score">Score: 0</h2>
+
+  <button onclick="restartGame()" class="ontouch">Restart</button>
+
+  <script src="cricket.js"></script>
+</body>
+</html>
