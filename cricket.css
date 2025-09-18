@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  background: linear-gradient(90deg, #2980b9, #e67e22);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+
+.game-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.player {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 40%;
+}
+.opponent {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 40%;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #2980b9;   
+  color: white;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e67e22;   /* orange */
+  color: white;
+}
+
+
+#countdown {
+  font-size: 22px;
+  margin-top: 30px;
+  color: #444;
+}
+
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#score {
+  font-size: 22px;
+  margin-top: 10px;
+  color: darkblue;
+}
+.ontouch{
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: orange;
+  color: white;
+  transition: background 0.3s ease;
+}
+.ontouch:hover{
+  background:darkorange;
+}
